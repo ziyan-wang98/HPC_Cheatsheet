@@ -16,7 +16,7 @@
     conda create --name tf-py37 python=3.7.4
     ```
     
-    The reason is python 3.7 not support typing.py, just do 3.7.4
+    The reason is python 3.7 not support typing.py, "ImportError: cannot import name 'OrderedDict' from 'typing'" , so just do 3.7.4
     
     ```bash
     conda activate tf-py38 / tf-py37
